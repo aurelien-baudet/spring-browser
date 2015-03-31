@@ -1,0 +1,9 @@
+[submodule "spring-browser-detection"]
+	path = spring-browser-detection
+	url = https://github.com/aurelien-baudet/spring-browser-detection.git
+[submodule "spring-boot-autoconfigure-browser-detection"]
+	path = spring-boot-autoconfigure-browser-detection
+	url = https://github.com/aurelien-baudet/spring-boot-autoconfigure-browser-detection.git
+[submodule "spring-boot-starter-browser-detection"]
+	path = spring-boot-starter-browser-detection
+	url = https://github.com/aurelien-baudet/spring-boot-starter-browser-detection.git

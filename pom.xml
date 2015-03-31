@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>fr.abaudet.spring</groupId>
+	<artifactId>spring-browser</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>Spring Browser Detection</name>
+	<description>Spring module that detects the browser used by the client</description>
+
+	<modules>
+		<module>spring-browser-detection</module>
+		<module>spring-boot-autoconfigure-browser-detection</module>
+		<module>spring-boot-starter-browser-detection</module>
+	</modules>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencyManagement>
+	</dependencyManagement>
+
+</project>
+

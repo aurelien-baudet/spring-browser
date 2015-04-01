@@ -9,20 +9,13 @@
 	<packaging>pom</packaging>
 
 	<name>Spring Browser Detection</name>
-	<description>Spring module that detects the browser used by the client</description>
+	<description>Just a parent pom to help building</description>
 
 	<modules>
 		<module>spring-browser-detection</module>
 		<module>spring-boot-autoconfigure-browser-detection</module>
 		<module>spring-boot-starter-browser-detection</module>
 	</modules>
-
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
-
-	<dependencyManagement>
-	</dependencyManagement>
 
 </project>
 

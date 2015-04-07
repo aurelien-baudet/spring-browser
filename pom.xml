@@ -11,11 +11,53 @@
 	<name>Spring Browser Detection</name>
 	<description>Just a parent pom to help building</description>
 
+	<properties>
+		<git.url>https://github.com/aurelien-baudet/spring-browser.git</git.url>
+		<nexus.release.url>http://nexus.devoxx.sii-ouest.fr/content/repositories/releases</nexus.release.url>
+		<nexus.snapshot.url>http://nexus.devoxx.sii-ouest.fr/content/repositories/snapshots</nexus.snapshot.url>
+	</properties>
+
 	<modules>
 		<module>spring-browser-detection</module>
 		<module>spring-boot-autoconfigure-browser-detection</module>
 		<module>spring-boot-starter-browser-detection</module>
 	</modules>
 
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>${git.url}</url>
+		<connection>scm:git:${git.url}</connection>
+		<developerConnection>scm:git:${git.url}</developerConnection>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Aurélien Baudet</name>
+			<email>aurelien.baudet@gmail.com</email>
+			<organization></organization>
+			<organizationUrl>https://github.com/aurelien-baudet</organizationUrl>
+		</developer>
+	</developers>
+	
+		
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Internal Releases</name>
+			<url>${nexus.release.url}</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Internal Snapshots</name>
+			<url>${nexus.snapshot.url}</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
 
